@@ -1,8 +1,20 @@
 import React from 'react'
 import './contact.css'
 import { MdOutlineMarkEmailUnread } from 'react-icons/md'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_rxviodg', 'template_0nkanvs', form.current, '5sf1MlgBOMaoGhj3F')
+
+    e.target.reset()
+  };
+
   return (
     <section id='contact'>
       <h5>Get in Touch</h5>
@@ -18,7 +30,7 @@ const Contact = () => {
           </article>
         </div>
         {/* end of contact options */}
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your Full Name' required />
           <input type='email' name='email' placeholder='Your Email' required />
           <textarea name="message" placeholder='Your Message Here' rows="5" required></textarea>
