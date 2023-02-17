@@ -40,6 +40,7 @@ body {
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture2.png);
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 /* ============== General Styles ============== */
@@ -59,6 +60,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, section > h5 {
