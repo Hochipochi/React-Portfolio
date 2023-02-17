@@ -13,10 +13,12 @@ const Footer = () => {
         <li><a href='#'>Contact</a></li>
       </ul>
 
-      <div className="footer__socials">
+
+      {/* socials to be added */}
+      {/* <div className="footer__socials">
         <a href='https://www.linkedin.com/' target='_blank'><AiOutlineFolderOpen /> My Linkedin</a>
         <a href='https://github.com/Hochipochi' target='_blank'><AiOutlineFolderOpen />My Github</a>
-      </div>
+      </div> */}
 
       <div className='footer__copyright'>
         <small>&copy; Michael Smitte Portfolio</small>
