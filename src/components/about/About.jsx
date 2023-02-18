@@ -32,7 +32,9 @@ const About = () => {
           </div>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quibusdam necessitatibus ducimus, perspiciatis similique cupiditate officiis vero magnam voluptate recusandae voluptatum illum esse omnis soluta culpa debitis? Fugit, eligendi iure!
+            Hello!
+            My name is Michael Smitte. I'm a computer hobbyist and recent Fullstack Developer bootcamp graduate at UNC Chapel Hill!
+            My wife and I enjoy going on hikes and exploring nature in our free time. You'll find plenty of information about my professional life here in my web-portfolio.
           </p>
         </div>
 
