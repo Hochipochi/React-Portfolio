@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.9fd13b94.css",
+    "main.js": "/React-Portfolio/static/js/main.0bf84103.js",
+    "static/media/duopic.jpg": "/React-Portfolio/static/media/duopic.f3872dd33a70e90b3de3.jpg",
+    "static/media/portfolio1.png": "/React-Portfolio/static/media/portfolio1.106abfaa905f773b37dc.png",
+    "static/media/AIportrait.jpg": "/React-Portfolio/static/media/AIportrait.587f2767a6386f31f790.jpg",
+    "static/media/portfolio2.png": "/React-Portfolio/static/media/portfolio2.c318590e62ec3f49037b.png",
+    "static/media/bg-texture5.png": "/React-Portfolio/static/media/bg-texture5.adcde6efd34a896050be.png",
+    "static/media/M.Smitte Resume 2023.pdf": "/React-Portfolio/static/media/M.Smitte Resume 2023.2d05ed8a8da54b572290.pdf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.9fd13b94.css.map": "/React-Portfolio/static/css/main.9fd13b94.css.map",
+    "main.0bf84103.js.map": "/React-Portfolio/static/js/main.0bf84103.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fd13b94.css",
+    "static/js/main.0bf84103.js"
+  ]
+}
